@@ -176,7 +176,75 @@ P{
     top:15%;
 }
 
+/*Tamaños de pantalla */
 
+@media(max-width: 500px)
+{
+    .primero{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .PrimerTexto{
+         width: 100%;    
+    }
+
+    .texto{
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+
+    }
+
+    .mensaje{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+
+    .mensaje p{
+        font-size: 17px;
+    }
+
+
+    .botones{
+        width: 80%;
+        left: 10%;
+        top:70%;
+    }
+
+    #incriptar,.desencritacion {
+    width: 50%;
+    border-radius: 17px;
+    }
+
+    #incriptar:hover,.desencritacion:hover{
+        margin: .5%;
+        width: 48%;
+        padding: 2%;
+    }
+
+    .segundo{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+
+    .segundo img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+
+    .segundotexto{
+        width: 100%;
+        top: 5%;
+    }
+
+}
+   
 
 
 
