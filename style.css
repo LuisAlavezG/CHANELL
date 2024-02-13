@@ -191,16 +191,16 @@ P{
 
     .texto{
         width: 80%;
-        height: 60%;
+        height: 30%;
         left: 10%;
-        top: 5%;
+        top: 10%;
 
     }
 
     .mensaje{
-        width: 80%;
-        left: 10%;
-        top: 70%;
+        width: 100%;
+        left: 12%;
+        top: 65%;
     }
 
     .mensaje p{
@@ -222,14 +222,14 @@ P{
     #incriptar:hover,.desencritacion:hover{
         margin: .5%;
         width: 48%;
-        padding: 2%;
+        padding: 5%;
     }
 
     .segundo{
         width: 80%;
-        height: 15%;
+        height: 20%;
         left: 10%;
-        top: 80%;
+        top: 85%;
     }
 
     .segundo img{
