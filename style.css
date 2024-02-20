@@ -7,7 +7,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 253, 253);
 
 }
 
@@ -24,7 +24,7 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 150%;
-    background-color: #f3f5fc;
+    background-color: #ffffff;
 }
 
 .PrimerTexto::placeholder{
@@ -186,12 +186,13 @@ P{
     }
 
     .PrimerTexto{
-         width: 100%;    
+         width: 90%;  
+         height: 50%;  
     }
 
     .texto{
         width: 80%;
-        height: 30%;
+        height: 50%;
         left: 10%;
         top: 10%;
 
