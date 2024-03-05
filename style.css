@@ -176,6 +176,28 @@ P{
     top:15%;
 }
 
+
+#CajaTexto2{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 15%;
+    top: 10%;
+    border: none;
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    background-color: #ffffff;
+    display: none;
+}
+
+#CajaTexto2:focus,#CajaTexto2:active{
+    border: none;
+    outline: none;
+}
+
 /*Tamaños de pantalla */
 
 @media(max-width: 500px)

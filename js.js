@@ -49,6 +49,14 @@ function Desencriptacion( text,key)
 
 let texto1 = document.querySelector("#PrimerTexto");
 let texto2 = document.querySelector("#CajaTexto2")
+let imgBusq = document.getElementById("imgbusqueda");
+
+
+function img(){
+    if(texto2.value == " "){
+        imgBusq.style.display = 'block';
+    }    
+}
 
 
 const matriz_Codigo =[
@@ -67,6 +75,9 @@ function Encriptacion1(){
     console.log(texto);
     texto2.value = texto;
     texto1.value = " ";
+    texto2.style.display = 'block';
+    imgBusq.style.display = 'none';
+
 
 }
 
@@ -115,3 +126,5 @@ function Desencriptacion(Frace){
     }
     return Frace;
 }
+
+img();
